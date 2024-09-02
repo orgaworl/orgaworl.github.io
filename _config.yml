@@ -75,8 +75,7 @@ ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "*****"
-sidebar-avatar: https://i0.hdslb.com/bfs/face/0539bd3b7a15302c93f57289ccd5bfce06b509fd.jpg@102w_102h.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
-
+sidebar-avatar: https://i0.hdslb.com/bfs/face/0539bd3b7a15302c93f57289ccd5bfce06b509fd.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
 featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
