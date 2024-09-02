@@ -14,7 +14,7 @@ future: true
 # SNS settings
 RSS: false
 weibo_username: orgaworl
-zhihu_username: orgaworl
+zhihu_username: organisedworld
 github_username: orgaworl
 #twitter_username: orgaworl
 #facebook_username:  huxpro
@@ -75,7 +75,7 @@ ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "*****"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://i0.hdslb.com/bfs/face/0539bd3b7a15302c93f57289ccd5bfce06b509fd.jpg@102w_102h.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
