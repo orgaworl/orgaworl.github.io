@@ -1,12 +1,22 @@
 ---
+
+title: "Rust"
+subtitle: "Rust"
+layout: post
+author: "orgaworl"
+header-style: text
 tags:
-  - 编程语言
+   - Rust
+   - 编程语言
   - 静态语言
   - 面向对象
   - 物理机运行
   - code
   - rust
 ---
+
+
+
 
 ## 语法
 ### 01数据类型

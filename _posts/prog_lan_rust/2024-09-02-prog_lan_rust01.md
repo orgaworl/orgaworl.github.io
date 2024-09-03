@@ -1,3 +1,14 @@
+---
+
+title: "Rust"
+subtitle: "Rust"
+layout: post
+author: "orgaworl"
+header-style: text
+tags:
+ - Rust
+ 
+---
 
 ## 语言特点
 
