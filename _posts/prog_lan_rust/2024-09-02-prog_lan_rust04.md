@@ -1,6 +1,6 @@
 ---
 title: "Rust"
-subtitle: "Rust"
+subtitle: "Rust04"
 layout: post
 author: "orgaworl"
 header-style: text
