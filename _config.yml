@@ -74,7 +74,7 @@ ga_domain: orgaworl.github.io
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "orgaworl"
+sidebar-about-description: "这本应是一段介绍."
 #sidebar-avatar: https://ooo.0x0.ooo/2024/09/03/Ot6f31.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 sidebar-avatar: /img/head.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
@@ -90,14 +90,7 @@ service-worker: true
 page-mathjax: false
 
 # Friends
-# friends:
-#   [
-#     { title: "乱序（Midare）", href: "http://mida.re/" },
-#     { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-#     { title: "Kun Qian", href: "http://kunq.me" },
-#     { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-#     { title: "SmdCn", href: "http://blog.smdcn.net" },
-#     { title: "JiyinYiyong", href: "http://tiye.me/" },
-#     { title: "DHong Say", href: "http://dhong.co" },
-#     { title: "尹峰以为", href: "http://ingf.github.io/" },
-#   ]
+friends:
+  [
+    { title: "bigggjerry", href: "https://bigggjerry.github.io/" },
+  ]
