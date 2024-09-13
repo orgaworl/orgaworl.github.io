@@ -12,9 +12,9 @@ tags:
 
 >[!NOTE] 效果图仅供参考.
 
-![](pic/obsidians.png)
+![](./pic/obsidians.png)
 
-![](pic/border-dark-nord.png)
+![](./pic/border-dark-nord.png)
 
 ## 主题配置
 尝试安装了border[^2]主题, 在默认配置还是有点小问题,​用style setting改了下设置. 
@@ -22,6 +22,8 @@ tags:
 
 
 ## References
-- [^1]:[Nord (nordtheme.com)](https://www.nordtheme.com/)
-- [^2]:[Akifyss/obsidian-border: A theme for obsidian.md (github.com)](https://github.com/Akifyss/obsidian-border)
-- [^3]:[不装了 Obsidian 完美主题 2024 - Border](https://www.bilibili.com/video/BV1QS421d7wR)
+[^1]:[Nord (nordtheme.com)](https://www.nordtheme.com/)
+[^2]:[Akifyss/obsidian-border: A theme for obsidian.md (github.com)](https://github.com/Akifyss/obsidian-border)
+[^3]:[不装了 Obsidian 完美主题 2024 - Border](https://www.bilibili.com/video/BV1QS421d7wR)
+
+
