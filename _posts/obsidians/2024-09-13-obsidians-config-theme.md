@@ -25,6 +25,10 @@ tags:
 
 ## References
 
-[^1]: [Nord (nordtheme.com)](https://www.nordtheme.com/)
-[Akifyss/obsidian-border: A theme for obsidian.md (github.com)](https://github.com/Akifyss/obsidian-border)
-[不装了 Obsidian 完美主题 2024 - Border](https://www.bilibili.com/video/BV1QS421d7wR)
+
+
+[^1]: https://www.nordtheme.com/
+
+[^2]: https://github.com/Akifyss/obsidian-border
+
+[^3]: https://www.bilibili.com/video/BV1QS421d7wR
