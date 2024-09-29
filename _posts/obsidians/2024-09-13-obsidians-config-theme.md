@@ -25,8 +25,6 @@ tags:
 
 ## References
 
-
-
 [^1]: https://www.nordtheme.com/
 
 [^2]: https://github.com/Akifyss/obsidian-border
