@@ -1,5 +1,4 @@
 ---
-date created: 2024-10-07 19:20
 title: Greenhouse-AE
 subtitle: 对嵌入式设备固件托管方案Greenhouse的Artifact Evaluation
 layout: post
@@ -10,7 +9,6 @@ tags:
 - IoT
 - SystemSecurity
 - rehost
-  date updated: 2024-09-14 11:40
 
 ---
 

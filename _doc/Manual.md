@@ -9,6 +9,10 @@
   - `about/` 个人介绍
 
 - `_posts/` 文章
+  
+  - 最多支持一层文件夹, 例如:
+  
+  - `_post/mainTheme/post.md`
 
 - `_config.yml`  个人基础信息
 
