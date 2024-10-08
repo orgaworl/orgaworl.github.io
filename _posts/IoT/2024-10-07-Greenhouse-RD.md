@@ -5,12 +5,17 @@ layout: post
 author: orgaworl
 header-style: text
 tags:
-  - IoT
-  - SystemSecurity
-  - paper
-date updated: 2024-10-08 16:20
+
+- IoT
+- SystemSecurity
+- paper
+  date updated: 2024-10-08 16:20
+
 ---
+
 > 论文阅读简记
+
+
 
 ## 研究背景
 
@@ -35,25 +40,30 @@ Type-II与Type-III固件与硬件紧密耦合, 通用重新托管工具更难以
 分类
 
 - *Extraction Fidelity* :静态组件保真度
-	- 存储在image或硬件中的文件或数据,需要从下载的固件image或物理设备中提取这些组件
+  
+  - 存储在image或硬件中的文件或数据,需要从下载的固件image或物理设备中提取这些组件
 
 - *Execution Fidelity*: 动态组件保真度
-	- 保真度会因外围设备的存在与否而复杂
-	- 低执行保真度可能会导致误报或漏报
+  
+  - 保真度会因外围设备的存在与否而复杂
+  - 低执行保真度可能会导致误报或漏报
 
 - 两者关联
-	- 高提取保真度才能确保高执行保真度
-	- 高提取保真度更容易实现, 高执行保真度更难实现
+  
+  - 高提取保真度才能确保高执行保真度
+  - 高提取保真度更容易实现, 高执行保真度更难实现
 
 ### 现有技术缺陷:
 
 - 模拟外设或将通信代理到运行在真实物联网设备上的外设的技术
-	- 只能托管小型嵌入式软件平台/无OS
-	- 无法分析复杂的基于linux的固件(很大一部分物联网设备)
+  
+  - 只能托管小型嵌入式软件平台/无OS
+  - 无法分析复杂的基于linux的固件(很大一部分物联网设备)
 
 - 针对基于 Linux 的固件的最先进的重新托管解决方案
-	- 依赖于不知外设的全系统重新托管，通常是将固件样本重新打包为标准文件系统格式，将嵌入式 Linux 内核替换为特定于重新托管的版本以支持一些临时通用设备仿真，并在全系统仿真器（如 QEMU）中引导固件样本。
-	- 这种重新托管保真度的隐含让步（例如，通过替换嵌入式内核）会导致重新托管失败。重新托管的目标实际上没有保持足够的功能来测试面向外部的服务。
+  
+  - 依赖于不知外设的全系统重新托管，通常是将固件样本重新打包为标准文件系统格式，将嵌入式 Linux 内核替换为特定于重新托管的版本以支持一些临时通用设备仿真，并在全系统仿真器（如 QEMU）中引导固件样本。
+  - 这种重新托管保真度的隐含让步（例如，通过替换嵌入式内核）会导致重新托管失败。重新托管的目标实际上没有保持足够的功能来测试面向外部的服务。
 
 当前最先进的重新托管方法必须考虑模拟设备和物理设备之间的差异，因此通常侧重于提高仿真保真度。然而，这种对保真度的追求忽略了其他可能的解决方案。
 
@@ -90,19 +100,23 @@ Type-II与Type-III固件与硬件紧密耦合, 通用重新托管工具更难以
 分阶段
 
 - 解包: 解压固件镜像并提取完整文件系统,
-	- gh仅支持type-1 固件.
-	- 因此需要在该阶段提取可识别的linux文件系统.
+  
+  - gh仅支持type-1 固件.
+  - 因此需要在该阶段提取可识别的linux文件系统.
 
 - 执行
-	- gh不模拟完整的环境, 而是定位到支持目标服务的特定二进制程序
-	- 因此, 此阶段关注于**高提取保真度**, 而不是高执行保真度. gh通过QEMU-user验证识别出的二进制文件是否可以在chroot下执行, 并以此判断其提取保真度.
+  
+  - gh不模拟完整的环境, 而是定位到支持目标服务的特定二进制程序
+  - 因此, 此阶段关注于**高提取保真度**, 而不是高执行保真度. gh通过QEMU-user验证识别出的二进制文件是否可以在chroot下执行, 并以此判断其提取保真度.
 
 - 连接
-	- 目标是实现与模拟固件服务的最低通信级别
-	- 要求能连接到重新托管的服务，而不会终止、超时或过早崩溃,  并能及时收到响应.
+  
+  - 目标是实现与模拟固件服务的最低通信级别
+  - 要求能连接到重新托管的服务，而不会终止、超时或过早崩溃,  并能及时收到响应.
 
 - 交互
-	- 在此阶段大幅提高执行保真度
+  
+  - 在此阶段大幅提高执行保真度
 
 ### rehost中的障碍
 
@@ -168,8 +182,14 @@ Greenhouse 处理三种类型的补丁：
 
 ## Reference
 
-[^1]:[Greenhouse: Single-Service Rehosting of Linux-Based Firmware Binaries in User-Space Emulation | USENIX](https://www.usenix.org/biblio-13740)
+---
 
-[^2]: [sec23winterae-final55.pdf (secartifacts.github.io)](https://secartifacts.github.io/usenixsec2023/appendix-files/sec23winterae-final55.pdf)
 
-[^3]:[Greenhouse USENIX 2023 Artifact Evaluation (zenodo.org)](https://zenodo.org/records/8026178)
+
+
+
+[^1]: https://www.usenix.org/biblio-13740
+
+[^2]: https://secartifacts.github.io/usenixsec2023/appendix-files/sec23winterae-final55.pdf
+
+[^3]: https://zenodo.org/records/8026178
