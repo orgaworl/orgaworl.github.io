@@ -1,6 +1,6 @@
 ---
 title: Greenhouse-RD
-subtitle: '论文阅读: greenhouse'
+subtitle: '论文阅读简单记: greenhouse'
 layout: post
 author: orgaworl
 header-style: text
@@ -12,10 +12,6 @@ tags:
   date updated: 2024-10-08 16:20
 
 ---
-
-> 论文阅读简记
-
-
 
 ## 研究背景
 
@@ -187,3 +183,7 @@ Greenhouse 处理三种类型的补丁：
 2. https://secartifacts.github.io/usenixsec2023/appendix-files/sec23winterae-final55.pdf
 
 3. https://zenodo.org/records/8026178
+
+
+
+---
